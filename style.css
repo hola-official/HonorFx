@@ -11,6 +11,7 @@
 html{
     scroll-behavior: smooth;
     overflow: hidden;
+    overflow-y: scroll;
 }
 
 body {
@@ -126,7 +127,7 @@ body {
     align-items: center;
     margin:  auto;
     display: flex;
-    position: fixed; 
+    /* position: fixed;  */
     justify-content: space-between;
     overflow: hidden;
 }
@@ -767,7 +768,7 @@ body {
 
 .contactForm .inputBox input:focus ~ span, 
 .contactForm .inputBox input:valid ~ span 
-.contactForm .inputBox textarea:focus ~ span 
+.contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
     color: #e91e63;
     font-size: 12px;
